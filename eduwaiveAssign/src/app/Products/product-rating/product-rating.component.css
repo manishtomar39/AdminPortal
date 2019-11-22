@@ -1,0 +1,15 @@
+.main{
+    border:groove;
+}
+
+.prods{
+    background-color:blue;
+    margin:0px;
+    padding:10px 10px;
+    color:white;
+    font-size:16px;
+}
+
+.selectOpt{
+    margin: 15px 15px;
+}

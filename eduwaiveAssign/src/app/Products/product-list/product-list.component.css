@@ -1,0 +1,58 @@
+.prodBorder{
+    border: groove;
+    margin-top: 10px;
+}
+.prods{
+    background-color:blue;
+    margin:0px;
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+  }
+  
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+}
+.main{
+    margin:10px 10px;
+}
+
+.currencyinput {
+    position: relative;
+}
+
+.currencyinput:before {
+    position: absolute;
+    content:"$";
+    width: 5%;
+    text-align: center;
+    font-size:24px;
+    background-color:gray;
+}
+
+.ratComp{
+    margin: 25px 25px;
+}
+
+.btnPos{
+    display:flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    margin:2px 2px;
+    color:white;
+}
+
+.inputlength{
+    padding-left:45px;
+}

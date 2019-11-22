@@ -1,0 +1,14 @@
+<div class="prodBorder">
+    <p class="prods">Products</p>
+    <div class="main">
+        <div class="submain">
+            <table class="table table-hover row-clickable" frame="box" id="tableID">
+                <tr *ngFor="let item of prodList; let i = index">   
+                    <td ><a (click) = "tableData(item)">{{prodList[i]}}</a></td>
+                    <td><a (click) = "tableData(item)">{{prodPrice[i]}}</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+

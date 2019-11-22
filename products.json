@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "modal": "Honor",
+      "price": "$550",
+      "rating": "4"
+    },
+    {
+      "id": 3,
+      "modal": "Mi",
+      "price": "$350",
+      "rating": "5"
+    },
+    {
+      "id": 6,
+      "modal": "Samsung",
+      "price": "$530",
+      "rating": "2"
+    },
+    {
+      "id": 9,
+      "modal": "Oppo",
+      "price": "$450",
+      "rating": "3"
+    },
+    {
+      "id": 10,
+      "modal": "Vivo",
+      "price": "$567",
+      "rating": "3"
+    },
+    {
+      "id": 11,
+      "modal": "Apple",
+      "price": "$1250",
+      "rating": "5"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.prodBorder{
+    border:groove;
+}
+.prods{
+    background-color:blue;
+    margin:0px;
+    padding:10px;
+    color:white;
+    font-size:18px;
+}
+.main{
+    margin:10px 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width:100%
+  }
+  
+td{
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    border:ridge;
+}
+
+tr:hover { 
+    background:blue; 
+}
+td a {     
+    display: block; 
+    padding: 16px; 
+}
+tr a:hover{
+    text-decoration: none;
+  }
+  

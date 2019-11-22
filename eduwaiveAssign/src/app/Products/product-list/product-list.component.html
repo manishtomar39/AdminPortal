@@ -1,0 +1,31 @@
+<div class="prodBorder">
+    <ul class="prods">
+        <li>Product Details</li>
+        <li style="float:right">{{prodModId}}</li>
+    </ul>
+   <div class="container-fluid">
+       <form class="main">
+           <div class="form-group">
+               <label>Name</label>
+               <input id="prodModal" type="text" class="form-control" value={{prodModal}} #prodModalValue>
+           </div>
+           <div class="form-group">
+                <label>Price</label>
+                <div>
+                    <span class="currencyinput">
+                        <input id="prodPrice" style="display:inherit" class="form-control inputlength" type="text" name="currency" value={{prodPrice}} #prodPriceValue>
+                    </span>
+                </div>
+            </div> 
+       </form>
+   </div>
+   <div class="ratComp">
+       <app-product-rating (ratingChanged)="ratingChanged($event)"></app-product-rating>
+   </div>
+   <div class="btnPos">
+       <button (click)="addData(prodModalValue.value, prodPriceValue.value)" style="background-color:blue">Add</button>
+       <button (click)="saveData(prodModalValue.value, prodPriceValue.value)" style="background-color:green">Save</button>
+       <button (click)="deleteData(prodModalValue.value, prodPriceValue.value)"style="background-color:red">Delete</button>
+       <button (click)="cancelData()"style="background-color:yellowgreen">Cancel</button>
+    </div>
+</div>

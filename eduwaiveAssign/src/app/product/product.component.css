@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  a{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+  }
+ 
+  li a:hover:not(.active) {
+    background-color:transparent;
+  }
+
+  li a:hover{
+    text-decoration: none;
+  }
+
+  img{
+      width:13px;
+  }
+
+  .sideborder{
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 30px;
+  }
+  
